@@ -39,7 +39,7 @@ class ApiController
      * @SWG\Response(
      *     response="201",
      *     description="Operation automatically detected",
-     *     @Model(type="Nelmio\ApiDocBundle\Tests\Functional\Entity\User")
+     *     @Model(type=User::class)
      * )
      * @SWG\Parameter(
      *     name="foo",
@@ -47,7 +47,7 @@ class ApiController
      *     description="This is a parameter",
      *     @SWG\Schema(
      *         type="array",
-     *         @Model(type="Nelmio\ApiDocBundle\Tests\Functional\Entity\User")
+     *         @Model(type=User::class)
      *     )
      * )
      */

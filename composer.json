@@ -18,7 +18,8 @@
         "php": "~7.0|~7.1",
         "symfony/framework-bundle": "^2.8|^3.0",
         "symfony/property-info": "^2.8|^3.0",
-        "exsyst/swagger": "~0.2.3"
+        "exsyst/swagger": "~0.2.3",
+        "zircote/swagger-php": "dev-master"
     },
     "require-dev": {
         "symfony/twig-bundle": "^2.8|^3.0",
@@ -42,7 +43,6 @@
     },
     "suggest": {
         "phpdocumentor/reflection-docblock": "For parsing php docs.",
-        "zircote/swagger-php": "For using swagger annotations.",
         "api-platform/core": "For using an API oriented framework.",
         "friendsofsymfony/rest-bundle": "For using the parameters annotations."
     },
